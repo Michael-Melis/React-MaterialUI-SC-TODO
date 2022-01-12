@@ -42,7 +42,6 @@ const TodoInput = () => {
   };
   return (
     <StyledForm onSubmit={handleSubmit(handleSubmitClick)}>
-      a
       <Controller
         name="text"
         control={control}
