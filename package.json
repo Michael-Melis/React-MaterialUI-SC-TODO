@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@hookform/resolvers": "^2.8.5",
+    "@mui/material": "^5.2.8",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "nanoid": "^3.1.32",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.23.0",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.0"
+    "recoil": "^0.5.2",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.0",
+    "yup": "^0.32.11"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
   },
   "scripts": {
     "start": "react-scripts start",
